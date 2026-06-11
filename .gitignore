@@ -1,0 +1,31 @@
+# Dados
+data/*
+!data/README.md
+!data/.gitkeep
+
+# Pesos e checkpoints de modelos
+models/*
+!models/.gitkeep
+*.pt
+*.onnx
+*.engine
+!models/best.pt
+runs/
+checkpoints/
+
+# Saidas da demo de anonimizacao (contem imagens do dataset)
+results/anonimizadas/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db

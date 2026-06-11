@@ -1,0 +1,6 @@
+experimento,mAP50,mAP50_95,precision,recall,epochs,data_hora
+exp1_baseline_pretreinado,0.0009,0.0001,0.0054,0.0522,0,2026-06-11T10:51:54
+exp2_feature_extraction,0.7101,0.3987,0.8426,0.6312,20,2026-06-11T11:01:28
+exp3_fine_tuning,0.6816,0.3759,0.8455,0.5896,20,2026-06-11T11:11:07
+exp4_fine_tuning_lr1e3,0.7193,0.4139,0.8652,0.6392,20,2026-06-11T11:33:19
+exp5_fine_tuning_lr1e3_50ep,0.7415,0.4313,0.8777,0.6553,50,2026-06-11T13:57:40
